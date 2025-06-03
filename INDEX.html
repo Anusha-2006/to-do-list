@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced To-Do List</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h2>To-Do List</h2>
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Add a new task..." autocomplete="off" required>
+      <select id="priority">
+        <option>High</option>
+        <option selected>Medium</option>
+        <option>Low</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+    <ul id="todo-list"></ul>
+  </div>
+  <script src="todo.js"></script>
+</body>
+</html>
